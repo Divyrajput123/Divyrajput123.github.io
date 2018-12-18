@@ -1,0 +1,195 @@
+body{
+    font-family: 'Nova Square', cursive;
+    font-size: 16px;
+}
+.fill-screen{
+    padding-top: 50px;
+    background-size: cover;
+    background-position: center;
+}
+.navbar
+{
+    margin-bottom: 0px;
+}
+.title-row{
+    position: relative;
+    min-height: 300px;
+}
+.title{
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.first-name{
+    margin-top: 175px;
+    color:white;
+    font-size:300%;
+}
+.last-name{
+    color: #000;
+    font-weight: 900;
+    background-color: #2196f3;
+    padding: 0px 10px;
+
+
+}
+.sec-header
+{
+padding-top: 50px;
+text-align: center;
+
+}
+.table-custom
+{
+font-size: 100%;
+}
+.table-custom dt{
+text-align: left;
+font-weight: bold;
+}
+.table-custom dd{
+    text-align: left;
+
+}
+.social a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    color: black;
+    border: 1px solid #000;
+}
+.fixed-attachement{
+    background-attachment:fixed;
+}
+.card-container{
+    perspective: 700px;
+    -webkit-perspective: 700px;
+}
+.card{
+
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 250px;
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
+}
+.card h4{
+    margin: 0;
+    color:#fff;
+}
+.front,.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+
+}
+
+.front{
+    background-color: #2196f3;
+
+}
+.back{
+    background-color: #b1c4b1;
+    transform: rotateY(180deg);
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.Activity-element
+{
+    text-align: center;
+}
+
+article#skills-progress{
+    padding: 3px 10px 0;
+}
+div.progress
+{
+font-weight: bold;
+color: #fff;
+background-color: #f3f3f3;
+border: none;
+box-shadow: none;
+height: 1.5em;
+
+}
+div.progress-bar >span{
+    float: left;
+    position: relative;
+    top: 4px;
+    left: 2%;
+}
+.progress-bar{
+    font-size: 100%;
+
+}
+.skill-level{
+    font-size: 80%;
+    color: #0fff04;
+    padding-right: 2%;
+
+}
+.skill-cards{
+top: 10px;
+}
+.skill-tech{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align: center;
+}
+.portfolio-section{
+    margin-bottom: 30px;
+}
+@media(max-width:788px){
+    .fixed-attachement{
+        background-attachment: scroll;
+    }
+    .sec-header >h3{
+        border:1px solid lightgrey;
+        padding: 15px;
+    }
+}
+.down-icon a{
+    font-size: 300%;
+    color: #2196f3;
+    text-decoration: none;
+
+}
+.down-button
+{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo
+{
+    padding: 5px 5px 5px 15px;
+    margin-top: 10px;
+}
+.logo >a:hover{
+    text-decoration: none;
+}
+.brand-logo
+{
+    border:1px solid #2196f3;
+    border-radius: 50%;
+    padding: 15px;
+    color: #fff;
+    background-color: #2196f3;
+    font-weight: 900;
+
+}
