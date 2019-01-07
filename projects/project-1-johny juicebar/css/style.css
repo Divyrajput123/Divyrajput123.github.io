@@ -1,0 +1,26 @@
+html{
+    
+height: 100%;
+    
+}
+body{
+    background:url(../images/pexels-photo-110472.jpeg);
+    background-position: center;
+ 
+    background-size: cover;
+}
+.center{
+    text-align: center;
+    padding-top: 10%;
+}
+h1{
+    color: #fff;
+    font-size: 5em;
+    font-family: 'Great Vibes', cursive;
+}
+h2{
+    color: #fff;
+    font-size: 3em;
+    font-family: 'Great Vibes', cursive;
+font-family: 'Mr Dafoe', cursive;
+}
